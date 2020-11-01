@@ -1,0 +1,146 @@
+body{
+    color:#40514E;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem; /*(90px) make font-size dinamic- 100% = 16px, so 90/16= 562.5*/
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:  #66BFBF;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    padding-bottom:10px;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+a{
+    color: #11999E;
+}
+.top-container{
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin:100px 0;
+}
+.profile{
+    width: 50%;
+    margin:20px auto 20px auto;
+}
+
+hr{
+    color:#ced3d3;
+    border-top:6px dotted;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top:50px;
+}
+    
+.bottom-cloud{
+    position: absolute;
+    bottom:300px;
+    left:350px;
+}
+
+.mountain{
+    margin:0;
+}
+.developer{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+    
+}
+.designer{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+    
+}
+h3{
+    padding-top: 15px;
+}
+
+.title{
+    font-weight: normal;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    height: 100px;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.footer-link{
+    margin-right:50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-link:hover{
+color: #EAF6F6;
+}
+.bottom-container p{
+    color:#EAF6F6;
+    font-size: 0.90rem;
+    padding:20px 0;
+}
+.btn{
+    
+        box-shadow: 0px 0px 0px 0px #f0f7fa;
+        background:linear-gradient(to bottom, #9ae2e2 5%, #59a8a8 100%);
+        background-color:#66BFBF;
+        border-radius:8px;
+        border:1px solid #057fd0;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:'Montserrat', sans-serif;
+        font-size:20px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover{
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+    background-color:#019ad2;
+}
+.btn:active{
+        position:relative;
+        top:1px;
+    
+}
+
